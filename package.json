@@ -1,1 +1,40 @@
-{     "devDependencies": {         "ember-cli-async-button": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-ember-cli-async-button",     "homepage": "https://github.com/npmtest/node-npmtest-ember-cli-async-button",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-ember-cli-async-button.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "test coverage for [ember-cli-async-button (v0.6.1)](https://github.com/dockyard/ember-cli-async-button#readme) [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-async-button.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-async-button) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-async-button.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-async-button)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "ember-cli-async-button": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-ember-cli-async-button",
+    "keywords": [
+        "coverage",
+        "test",
+        "ember-cli-async-button"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_ember_cli_async_button.js",
+    "name": "npmtest-ember-cli-async-button",
+    "nameAlias": "npmtest_ember_cli_async_button",
+    "nameOriginal": "npmtest-ember-cli-async-button",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-ember-cli-async-button.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}

@@ -1,4 +1,7 @@
-# test coverage for  [ember-cli-async-button (v0.6.1)](https://github.com/dockyard/ember-cli-async-button#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-async-button.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-async-button) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-async-button.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-async-button)
+# npmtest-ember-cli-async-button
+
+#### test coverage for  [ember-cli-async-button (v0.6.1)](https://github.com/dockyard/ember-cli-async-button#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-async-button.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-async-button) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-async-button.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-async-button)
+
 #### This package has been renamed to ember-async-button. Please install that instead.
 
 [![NPM](https://nodei.co/npm/ember-cli-async-button.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ember-cli-async-button)
